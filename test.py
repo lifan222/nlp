@@ -10,7 +10,7 @@ def res_cmd_stdin(cmd):
     popen = subprocess.Popen(cmd, stdout=subprocess.PIPE,shell=True)
     return popen.communicate()[0];
 
-input_str = '太郎はこの本を二郎を見た女性に渡した。'
+input_str = '太郎は横浜に帰った'
 cmd = 'java -jar ASA20150617.jar -x'
 
 cmd_str = res_cmd(cmd, input_str.encode('utf-8'))
