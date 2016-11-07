@@ -36,7 +36,7 @@ def getdata(input_file):
     data_root = data_tree.getroot()
     for child in data_root:
         if child.tag != 'sentence':
-            if child[2].text == 'verb':
+            if child[1].text == '-1':
                 data_list[0] = child[3].text
             else:
                 data_list[1][child[6].text] = child[3].text
@@ -49,6 +49,8 @@ def getdata(input_file):
 def check(textbook, question):
     textbook_list = getdata(textbook)
     question_list = getdata(question)
+    print(textbook_list)
+    print(question_list)
 
     if textbook_list == question_list:
         print ('正解！')
@@ -56,6 +58,8 @@ def check(textbook, question):
         print('残念！')
 
 check('input.txt', 'question.txt')
+
+print(getdata("input.txt"))
 
 
 

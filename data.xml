@@ -1,13 +1,13 @@
 <sent>
-  <sentence>太郎は横浜に帰った</sentence>
+  <sentence>太郎には３歳の息子がいる。</sentence>
   <chunk id="0">
-    <surface>太郎は</surface>
-    <link>2</link>
+    <surface>太郎には</surface>
+    <link>3</link>
     <type>elem</type>
     <noun_surface>太郎</noun_surface>
     <category>人</category>
     <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
+    <semrole>経験者</semrole>
     <similar>3.0</similar>
     <morph id="0">
       <surface>太郎</surface>
@@ -19,6 +19,15 @@
       <ne>B-PERSON</ne>
     </morph>
     <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
       <surface>は</surface>
       <read>ハ</read>
       <base>は</base>
@@ -29,84 +38,110 @@
     </morph>
   </chunk>
   <chunk id="1">
-    <surface>横浜に</surface>
+    <surface>３歳の</surface>
     <link>2</link>
     <type>elem</type>
-    <noun_surface>横浜</noun_surface>
-    <category>場所</category>
-    <part_surface> に </part_surface>
-    <semrole>場所</semrole>
-    <similar>1.5</similar>
-    <sentelem>ADVERBIAL</sentelem>
+    <noun_surface>３歳</noun_surface>
+    <category>数値</category>
+    <part_surface> </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
     <morph id="0">
-      <surface>横浜</surface>
-      <read>ヨコハマ</read>
-      <base>横浜</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
+      <surface>３</surface>
+      <read>サン</read>
+      <base>３</base>
+      <pos>名詞,数</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>B-LOCATION</ne>
+      <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
+      <surface>歳</surface>
+      <read>サイ</read>
+      <base>歳</base>
+      <pos>名詞,接尾,助数詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
   <chunk id="2">
-    <surface>帰った</surface>
+    <surface>息子が</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>息子</noun_surface>
+    <category>人</category>
+    <part_surface> が </part_surface>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>息子</surface>
+      <read>ムスコ</read>
+      <base>息子</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>いる。</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>帰る</noun_surface>
-    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-</semantic>
-    <similar>4.5</similar>
+    <noun_surface>いる</noun_surface>
+    <semantic>状態変化あり-主体の変化-心理的変化-感情変化-動揺</semantic>
+    <similar>3.0</similar>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
     <sentelem>PREDICATE</sentelem>
     <mod>0</mod>
-    <mod>1</mod>
+    <mod>2</mod>
     <morph id="0">
-      <surface>帰っ</surface>
-      <read>カエッ</read>
-      <base>帰る</base>
+      <surface>いる</surface>
+      <read>イル</read>
+      <base>いる</base>
       <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・ラ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,ら,ラ</form>
-        <form>未然特殊,ん,ン</form>
-        <form>未然ウ接続,ろ,ロ</form>
-        <form>連用形,り,リ</form>
-        <form>連用タ接続,っ,ッ</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｅ,れ,レ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-        <form>体言接続特殊２,*,*</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
       <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
+      <cform>一段</cform>
       <ne>O</ne>
       <cchart>
         <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
       </cchart>
+    </morph>
+    <morph id="1">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
     </morph>
   </chunk>
 </sent>
