@@ -69,7 +69,7 @@ def getdata(input_file):
                 if tmp_dict['type'] == 'verb':
                     data_list[0] = tmp_dict['noun_surface']
                     data_lists.append(data_list)
-                    data_lists = []
+                    data_list = ['', {}]
                 else:
                     if 'semrole' in tmp_dict:
                         data_list[1][tmp_dict['semrole']] = tmp_dict['noun_surface']
