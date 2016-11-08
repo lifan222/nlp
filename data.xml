@@ -1,11 +1,11 @@
 <sent>
-  <sentence>二郎はまだ残っていて、三郎は寝ている。</sentence>
+  <sentence>二郎は１月に生まれた</sentence>
   <chunk id="0">
     <surface>二郎は</surface>
     <link>2</link>
     <type>elem</type>
     <noun_surface>二郎</noun_surface>
-    <semrole>対象</semrole>
+    <semrole>対象（生成物）</semrole>
     <similar>1.0</similar>
     <morph id="0">
       <surface>二郎</surface>
@@ -27,148 +27,47 @@
     </morph>
   </chunk>
   <chunk id="1">
-    <surface>まだ</surface>
+    <surface>１月に</surface>
     <link>2</link>
     <type>elem</type>
-    <noun_surface>まだ</noun_surface>
+    <noun_surface>１月</noun_surface>
     <sentelem>ADVERBIAL</sentelem>
     <morph id="0">
-      <surface>まだ</surface>
-      <read>マダ</read>
-      <base>まだ</base>
-      <pos>副詞,助詞類接続</pos>
+      <surface>１月</surface>
+      <read>イチガツ</read>
+      <base>１月</base>
+      <pos>名詞,副詞可能</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
   <chunk id="2">
-    <surface>残っていて、</surface>
-    <link>4</link>
-    <type>verb</type>
-    <noun_surface>残る</noun_surface>
-    <semantic>状態変化あり-位置変化-位置変化（物理）（人物間）-他者への所有物の移動-伝承</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>残っ</surface>
-      <read>ノコッ</read>
-      <base>残る</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・ラ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,ら,ラ</form>
-        <form>未然特殊,ん,ン</form>
-        <form>未然ウ接続,ろ,ロ</form>
-        <form>連用形,り,リ</form>
-        <form>連用タ接続,っ,ッ</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｅ,れ,レ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-        <form>体言接続特殊２,*,*</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>て</surface>
-      <read>テ</read>
-      <base>て</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>い</surface>
-      <read>イ</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="3">
-      <surface>て</surface>
-      <read>テ</read>
-      <base>て</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="4">
-      <surface>、</surface>
-      <read>、</read>
-      <base>、</base>
-      <pos>記号,読点</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="3">
-    <surface>三郎は</surface>
-    <link>4</link>
-    <type>elem</type>
-    <noun_surface>三郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>三郎</surface>
-      <read>サブロウ</read>
-      <base>三郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="4">
-    <surface>寝ている。</surface>
+    <surface>生まれた</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>寝る</noun_surface>
-    <semantic>状態変化あり-主体の変化-身体的変化-姿勢・身なり-姿勢</semantic>
+    <noun_surface>生まれる</noun_surface>
+    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
     <similar>1.0</similar>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
     <sentelem>PREDICATE</sentelem>
-    <mod>2</mod>
-    <mod>3</mod>
+    <mod>0</mod>
+    <mod>1</mod>
     <morph id="0">
-      <surface>寝</surface>
-      <read>ネ</read>
-      <base>寝る</base>
+      <surface>生まれ</surface>
+      <read>ウマレ</read>
+      <base>生まれる</base>
       <pos>動詞,自立</pos>
       <ctype>連用形</ctype>
       <cform>一段</cform>
@@ -187,43 +86,19 @@
       </cchart>
     </morph>
     <morph id="1">
-      <surface>て</surface>
-      <read>テ</read>
-      <base>て</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
       <ctype>基本形</ctype>
-      <cform>一段</cform>
+      <cform>特殊・タ</cform>
       <ne>O</ne>
       <cchart>
         <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
       </cchart>
-    </morph>
-    <morph id="3">
-      <surface>。</surface>
-      <read>。</read>
-      <base>。</base>
-      <pos>記号,句点</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
     </morph>
   </chunk>
 </sent>

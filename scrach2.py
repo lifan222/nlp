@@ -25,11 +25,13 @@ def getdata(input_file):
     fin_lines = fin.readlines()
     fin.close()
     data_dicts = {}
+    line_num = 0
 
     for fin_line in fin_lines:
         fin_list = fin_line.split(",")
         fin_num = fin_list[0]
         fin_str = fin_list[1]
+        line_num += 1
         #中間XMLを生成する
         cmd = 'java -jar ASA20150617.jar -x'
         cmd_str = res_cmd(cmd, fin_str.encode(default_encoding))
@@ -48,8 +50,6 @@ def getdata(input_file):
         data_list = ['', {}]
         data_tree = ET.parse('data.xml')
         data_root = data_tree.getroot()
-
-
 
         for child in data_root:
             tmp_dict = {}
@@ -76,25 +76,31 @@ def getdata(input_file):
                     else:
                         data_list[1]['link'+tmp_dict['link'] ] = tmp_dict['noun_surface']
 
-        data_dicts[fin_num] = data_lists
+        if len(fin_list) > 2:
+            data_dicts["問"+str(line_num)] = data_lists
+            answer["問"+str(line_num)] = fin_list[2]
+            if textbook_list[fin_num] == data_lists:
+                result["問"+str(line_num)] = 1
+            else:
+                result["問"+str(line_num)] = 0
+            if result["問"+str(line_num)] == answer["問"+str(line_num)]:
+                score += 1
+        else:
+            data_dicts[fin_num] = data_lists
+
     return data_dicts
 
-# #----------------------------------------------問題文の正誤判定
-# def check(textbook, question):
-#     textbook_list = getdata(textbook)
-#     question_list = getdata(question)
-#     print(textbook_list)
-#     print(question_list)
-
-#     if textbook_list == question_list:
-#         print ('正解！')
-#     else:
-#         print('残念！')
-
-
-# #----------------------------------------------main
-# check('input.txt', 'question.txt')
-print(getdata("input.txt"))
+#----------------------------------------------main
+result = {}
+answer = {}
+score = 0
+textbook_list = getdata('input.txt')
+question_list = getdata('question.txt')
+print(textbook_list)
+print(question_list)
+print(result)
+print(answer)
+print("点数："+str(score))
 
 
 
