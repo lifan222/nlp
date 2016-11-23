@@ -18,34 +18,38 @@ def res_cmd(cmd,input):
     process = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE,shell=True)
     return process.communicate(input=input)[0];
 
-
 #-------------------------------------------教科書と問題文の読み取り
 def getdata(input_file):
     fin = open(input_file)
     fin_lines = fin.readlines()
     fin.close()
     data_books = []
+    fin_str = ''
 
-    for fin_str in fin_lines:
-        #中間XMLを生成する
-        cmd = 'java -jar ASA20150617.jar -x'
-        cmd_str = res_cmd(cmd, fin_str.encode(default_encoding))
-        xml_str = cmd_str.decode(default_encoding)
-        xml_list = line_split(xml_str)
-        del xml_list[0]
-        del xml_list[0]
-        del xml_list[-1]
-        fout = codecs.open('data.xml', 'w', 'utf-8')
-        for line in xml_list:
-            fout.write(line+'\n')
-        fout.close()
+    for line in fin_lines:
+        fin_str += line
 
-        #XMLからリストに変換
+    cmd = 'java -jar ASA20150617.jar -x'
+    cmd_str = res_cmd(cmd, fin_str.encode(default_encoding))
+    xml_str = cmd_str.decode(default_encoding)
+    xml_list = line_split(xml_str)
+
+    fout = codecs.open('data.xml', 'w', 'utf-8')
+    for line in xml_list:
+        if line != 'input':
+            if line == '起動中':
+                fout.write('<data>'+'\n')
+            else:
+                fout.write(line+'\n')
+    fout.write('</data>')
+    fout.close()
+
+    #XMLからリストに変換
+    data_tree = ET.parse('data.xml')
+    data_roots = data_tree.getroot()
+    for data_root in data_roots:
         data_lists = []
         data_list = ['', {}]
-        data_tree = ET.parse('data.xml')
-        data_root = data_tree.getroot()
-
         for child in data_root:
             tmp_dict = {}
             tmp_link = ""
@@ -70,13 +74,14 @@ def getdata(input_file):
                         data_list[1][tmp_dict['semrole']] = tmp_dict['noun_surface']
                     else:
                         data_list[1]['link'+tmp_dict['link'] ] = tmp_dict['noun_surface']
-
         data_books.append(data_lists)
     return data_books
 
 def output_result(textbook_txt, question_txt, output_txt):
     textbooks = getdata(textbook_txt)
     questions = getdata(question_txt)
+    print(textbooks)
+    print(questions)
     result = []
     fin = open(question_txt)
     fin_lines = fin.read().splitlines()
