@@ -1,48 +1,47 @@
 <data>
 <sent>
-  <sentence>二郎は帰った</sentence>
+  <sentence>砂糖でつくった馬・ライオン・ネコなどの菓子が店頭につるされ，子ども向けに売られる。</sentence>
   <chunk id="0">
-    <surface>二郎は</surface>
+    <surface>砂糖で</surface>
     <link>1</link>
     <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
+    <noun_surface>砂糖</noun_surface>
+    <category>モノ</category>
+    <part_surface> で </part_surface>
+    <semrole>手段</semrole>
     <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
+      <surface>砂糖</surface>
+      <read>サトウ</read>
+      <base>砂糖</base>
+      <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>B-PERSON</ne>
+      <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
+      <surface>で</surface>
+      <read>デ</read>
+      <base>で</base>
+      <pos>助詞,格助詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
   <chunk id="1">
-    <surface>帰った</surface>
-    <link>-1</link>
+    <surface>つくった</surface>
+    <link>2</link>
     <type>verb</type>
-    <noun_surface>帰る</noun_surface>
-    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-</semantic>
-    <similar>1.0</similar>
+    <noun_surface>つくる</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
     <mod>0</mod>
     <morph id="0">
-      <surface>帰っ</surface>
-      <read>カエッ</read>
-      <base>帰る</base>
+      <surface>つくっ</surface>
+      <read>ツクッ</read>
+      <base>つくる</base>
       <pos>動詞,自立</pos>
       <ctype>連用タ接続</ctype>
       <cform>五段・ラ行</cform>
@@ -78,1101 +77,68 @@
       </cchart>
     </morph>
   </chunk>
-</sent>
-<sent>
-  <sentence>太郎は帰った</sentence>
-  <chunk id="0">
-    <surface>太郎は</surface>
-    <link>1</link>
-    <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>3.0</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>帰った</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>帰る</noun_surface>
-    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-</semantic>
-    <similar>3.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <morph id="0">
-      <surface>帰っ</surface>
-      <read>カエッ</read>
-      <base>帰る</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・ラ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,ら,ラ</form>
-        <form>未然特殊,ん,ン</form>
-        <form>未然ウ接続,ろ,ロ</form>
-        <form>連用形,り,リ</form>
-        <form>連用タ接続,っ,ッ</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｅ,れ,レ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-        <form>体言接続特殊２,*,*</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>納会は５時に終了する</sentence>
-  <chunk id="0">
-    <surface>納会は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>納会</noun_surface>
-    <category>動作</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>納会</surface>
-      <read>ノウカイ</read>
-      <base>納会</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>５時に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>５時</noun_surface>
-    <category>時間</category>
-    <part_surface> に </part_surface>
-    <semrole>場所（時）（点）</semrole>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>５</surface>
-      <read>ゴ</read>
-      <base>５</base>
-      <pos>名詞,数</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>時</surface>
-      <read>ジ</read>
-      <base>時</base>
-      <pos>名詞,接尾,助数詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
   <chunk id="2">
-    <surface>終了する</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>終了する</noun_surface>
-    <semantic>状態変化あり-開始・終了-停止・終了-終了-</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>終了</surface>
-      <read>シュウリョウ</read>
-      <base>終了</base>
-      <pos>名詞,サ変接続</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>する</surface>
-      <read>スル</read>
-      <base>する</base>
-      <pos>動詞,自立</pos>
-      <ctype>基本形</ctype>
-      <cform>サ変・スル</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,する,スル</form>
-        <form>文語基本形,す,ス</form>
-        <form>未然形,し,シ</form>
-        <form>未然ウ接続,しよ,シヨ</form>
-        <form>未然ウ接続,しょ,ショ</form>
-        <form>未然レル接続,さ,サ</form>
-        <form>未然ヌ接続,せ,セ</form>
-        <form>連用形,し,シ</form>
-        <form>仮定形,すれ,スレ</form>
-        <form>命令ｙｏ,せよ,セヨ</form>
-        <form>命令ｒｏ,しろ,シロ</form>
-        <form>命令ｉ,せい,セイ</form>
-        <form>仮定縮約１,すりゃ,スリャ</form>
-        <form>体言接続特殊,すん,スン</form>
-        <form>体言接続特殊２,す,ス</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>納会は４時に終了する</sentence>
-  <chunk id="0">
-    <surface>納会は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>納会</noun_surface>
-    <category>動作</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>納会</surface>
-      <read>ノウカイ</read>
-      <base>納会</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>４時に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>４時</noun_surface>
-    <category>時間</category>
-    <part_surface> に </part_surface>
-    <semrole>場所（時）（点）</semrole>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>４</surface>
-      <read>ヨン</read>
-      <base>４</base>
-      <pos>名詞,数</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>時</surface>
-      <read>ジ</read>
-      <base>時</base>
-      <pos>名詞,接尾,助数詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>終了する</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>終了する</noun_surface>
-    <semantic>状態変化あり-開始・終了-停止・終了-終了-</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>終了</surface>
-      <read>シュウリョウ</read>
-      <base>終了</base>
-      <pos>名詞,サ変接続</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>する</surface>
-      <read>スル</read>
-      <base>する</base>
-      <pos>動詞,自立</pos>
-      <ctype>基本形</ctype>
-      <cform>サ変・スル</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,する,スル</form>
-        <form>文語基本形,す,ス</form>
-        <form>未然形,し,シ</form>
-        <form>未然ウ接続,しよ,シヨ</form>
-        <form>未然ウ接続,しょ,ショ</form>
-        <form>未然レル接続,さ,サ</form>
-        <form>未然ヌ接続,せ,セ</form>
-        <form>連用形,し,シ</form>
-        <form>仮定形,すれ,スレ</form>
-        <form>命令ｙｏ,せよ,セヨ</form>
-        <form>命令ｒｏ,しろ,シロ</form>
-        <form>命令ｉ,せい,セイ</form>
-        <form>仮定縮約１,すりゃ,スリャ</form>
-        <form>体言接続特殊,すん,スン</form>
-        <form>体言接続特殊２,す,ス</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>納会は終了する</sentence>
-  <chunk id="0">
-    <surface>納会は</surface>
-    <link>1</link>
-    <type>elem</type>
-    <noun_surface>納会</noun_surface>
-    <category>動作</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>納会</surface>
-      <read>ノウカイ</read>
-      <base>納会</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>終了する</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>終了する</noun_surface>
-    <semantic>状態変化あり-開始・終了-停止・終了-終了-</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <morph id="0">
-      <surface>終了</surface>
-      <read>シュウリョウ</read>
-      <base>終了</base>
-      <pos>名詞,サ変接続</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>する</surface>
-      <read>スル</read>
-      <base>する</base>
-      <pos>動詞,自立</pos>
-      <ctype>基本形</ctype>
-      <cform>サ変・スル</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,する,スル</form>
-        <form>文語基本形,す,ス</form>
-        <form>未然形,し,シ</form>
-        <form>未然ウ接続,しよ,シヨ</form>
-        <form>未然ウ接続,しょ,ショ</form>
-        <form>未然レル接続,さ,サ</form>
-        <form>未然ヌ接続,せ,セ</form>
-        <form>連用形,し,シ</form>
-        <form>仮定形,すれ,スレ</form>
-        <form>命令ｙｏ,せよ,セヨ</form>
-        <form>命令ｒｏ,しろ,シロ</form>
-        <form>命令ｉ,せい,セイ</form>
-        <form>仮定縮約１,すりゃ,スリャ</form>
-        <form>体言接続特殊,すん,スン</form>
-        <form>体言接続特殊２,す,ス</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>太郎は１月に生まれた</sentence>
-  <chunk id="0">
-    <surface>太郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>１月に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>１月</noun_surface>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>１月</surface>
-      <read>イチガツ</read>
-      <base>１月</base>
-      <pos>名詞,副詞可能</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は１月に生まれた</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>１月に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>１月</noun_surface>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>１月</surface>
-      <read>イチガツ</read>
-      <base>１月</base>
-      <pos>名詞,副詞可能</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>太郎は岡山で生まれた</sentence>
-  <chunk id="0">
-    <surface>太郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>岡山で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>岡山</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>岡山</surface>
-      <read>オカヤマ</read>
-      <base>岡山</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>太郎は岐阜で生まれた</sentence>
-  <chunk id="0">
-    <surface>太郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>岐阜で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>岐阜</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>岐阜</surface>
-      <read>ギフ</read>
-      <base>岐阜</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は岡山で生まれた</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>岡山で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>岡山</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>岡山</surface>
-      <read>オカヤマ</read>
-      <base>岡山</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>三郎は岡山で生まれた</sentence>
-  <chunk id="0">
-    <surface>三郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>三郎</noun_surface>
-    <semrole>対象（生成物）</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>三郎</surface>
-      <read>サブロウ</read>
-      <base>三郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>岡山で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>岡山</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>岡山</surface>
-      <read>オカヤマ</read>
-      <base>岡山</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>太郎には３歳の息子がいる</sentence>
-  <chunk id="0">
-    <surface>太郎には</surface>
+    <surface>馬・ライオン・ネコなどの</surface>
     <link>3</link>
     <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>経験者</semrole>
-    <similar>3.0</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>３歳の</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>３歳</noun_surface>
-    <category>数値</category>
-    <part_surface> </part_surface>
+    <noun_surface>馬ライオンネコ</noun_surface>
     <sentelem>ADNOMINAL</sentelem>
+    <mod>1</mod>
     <morph id="0">
-      <surface>３</surface>
-      <read>サン</read>
-      <base>３</base>
-      <pos>名詞,数</pos>
+      <surface>馬</surface>
+      <read>ウマ</read>
+      <base>馬</base>
+      <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>O</ne>
+      <ne>B-ORGANIZATION</ne>
     </morph>
     <morph id="1">
-      <surface>歳</surface>
-      <read>サイ</read>
-      <base>歳</base>
-      <pos>名詞,接尾,助数詞</pos>
+      <surface>・</surface>
+      <read>・</read>
+      <base>・</base>
+      <pos>記号,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ORGANIZATION</ne>
+    </morph>
+    <morph id="2">
+      <surface>ライオン</surface>
+      <read>ライオン</read>
+      <base>ライオン</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ORGANIZATION</ne>
+    </morph>
+    <morph id="3">
+      <surface>・</surface>
+      <read>・</read>
+      <base>・</base>
+      <pos>記号,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ORGANIZATION</ne>
+    </morph>
+    <morph id="4">
+      <surface>ネコ</surface>
+      <read>ネコ</read>
+      <base>ネコ</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ORGANIZATION</ne>
+    </morph>
+    <morph id="5">
+      <surface>など</surface>
+      <read>ナド</read>
+      <base>など</base>
+      <pos>助詞,副助詞</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
-    <morph id="2">
+    <morph id="6">
       <surface>の</surface>
       <read>ノ</read>
       <base>の</base>
@@ -1182,18 +148,18 @@
       <ne>O</ne>
     </morph>
   </chunk>
-  <chunk id="2">
-    <surface>息子が</surface>
-    <link>3</link>
+  <chunk id="3">
+    <surface>菓子が</surface>
+    <link>5</link>
     <type>elem</type>
-    <noun_surface>息子</noun_surface>
-    <category>人</category>
+    <noun_surface>菓子</noun_surface>
+    <category>モノ</category>
     <part_surface> が </part_surface>
-    <mod>1</mod>
+    <mod>2</mod>
     <morph id="0">
-      <surface>息子</surface>
-      <read>ムスコ</read>
-      <base>息子</base>
+      <surface>菓子</surface>
+      <read>カシ</read>
+      <base>菓子</base>
       <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
@@ -1204,101 +170,361 @@
       <read>ガ</read>
       <base>が</base>
       <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>店頭に</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>店頭</noun_surface>
+    <category>場所</category>
+    <part_surface> に </part_surface>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>店頭</surface>
+      <read>テントウ</read>
+      <base>店頭</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>つるされ，</surface>
+    <link>7</link>
+    <type>verb</type>
+    <noun_surface>つるす</noun_surface>
+    <voice>PASSIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>3</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>つるさ</surface>
+      <read>ツルサ</read>
+      <base>つるす</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然形</ctype>
+      <cform>五段・サ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>未然形</type>
+        <form>基本形,す,ス</form>
+        <form>未然形,さ,サ</form>
+        <form>未然ウ接続,そ,ソ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,せ,セ</form>
+        <form>命令ｅ,せ,セ</form>
+        <form>仮定縮約１,しゃ,シャ</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>れ</surface>
+      <read>レ</read>
+      <base>れる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>連用形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="6">
+    <surface>子ども向けに</surface>
+    <link>7</link>
+    <type>elem</type>
+    <noun_surface>子ども向け</noun_surface>
+    <semrole>着点（人）</semrole>
+    <similar>1.0</similar>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>子ども</surface>
+      <read>コドモ</read>
+      <base>子ども</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>向け</surface>
+      <read>ムケ</read>
+      <base>向け</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="7">
+    <surface>売られる。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>売る</noun_surface>
+    <semantic>状態変化あり-位置変化-位置変化（物理）（人物間）-他者への所有物の移動-販売</semantic>
+    <similar>1.0</similar>
+    <voice>PASSIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>5</mod>
+    <mod>6</mod>
+    <morph id="0">
+      <surface>売ら</surface>
+      <read>ウラ</read>
+      <base>売る</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然形</ctype>
+      <cform>五段・ラ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>未然形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然特殊,ん,ン</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+        <form>体言接続特殊２,*,*</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>れる</surface>
+      <read>レル</read>
+      <base>れる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>基本形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>その壁面や天昇には,牛.馬.鹿などが，たくみに描かれている。</sentence>
+  <chunk id="0">
+    <surface>その</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface></noun_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <morph id="0">
+      <surface>その</surface>
+      <read>ソノ</read>
+      <base>その</base>
+      <pos>連体詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>壁面や</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>壁面</noun_surface>
+    <category>モノ</category>
+    <part_surface> </part_surface>
+    <morph id="0">
+      <surface>壁面</surface>
+      <read>ヘキメン</read>
+      <base>壁面</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>や</surface>
+      <read>ヤ</read>
+      <base>や</base>
+      <pos>助詞,並立助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>天昇には</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>天昇</noun_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <mod>0</mod>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>天</surface>
+      <read>テン</read>
+      <base>天</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>昇</surface>
+      <read>ノボリ</read>
+      <base>昇</base>
+      <pos>名詞,固有名詞,地域,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="2">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
   <chunk id="3">
-    <surface>いる</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>いる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情変化-動揺</semantic>
-    <similar>3.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>2</mod>
-    <morph id="0">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,自立</pos>
-      <ctype>基本形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎には息子がいる</sentence>
-  <chunk id="0">
-    <surface>二郎には</surface>
-    <link>2</link>
+    <surface>,牛.馬.鹿などが，</surface>
+    <link>5</link>
     <type>elem</type>
-    <noun_surface>二郎</noun_surface>
+    <noun_surface>,牛.馬.鹿</noun_surface>
     <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
+      <surface>,</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,サ変接続</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>息子が</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>息子</noun_surface>
-    <category>人</category>
-    <part_surface> が </part_surface>
-    <semrole>経験者</semrole>
-    <similar>3.0</similar>
-    <morph id="0">
-      <surface>息子</surface>
-      <read>ムスコ</read>
-      <base>息子</base>
+      <surface>牛</surface>
+      <read>ウシ</read>
+      <base>牛</base>
       <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
-    <morph id="1">
+    <morph id="2">
+      <surface>.</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>馬</surface>
+      <read>バ</read>
+      <base>馬</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>.</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="5">
+      <surface>鹿</surface>
+      <read>シカ</read>
+      <base>鹿</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="6">
+      <surface>など</surface>
+      <read>ナド</read>
+      <base>など</base>
+      <pos>助詞,副助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="7">
       <surface>が</surface>
       <read>ガ</read>
       <base>が</base>
@@ -1307,87 +533,34 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>いる</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>いる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情変化-動揺</semantic>
-    <similar>3.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,自立</pos>
-      <ctype>基本形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は寝屋川に住んでいる</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
+    <morph id="8">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
-  <chunk id="1">
-    <surface>寝屋川に</surface>
-    <link>2</link>
+  <chunk id="4">
+    <surface>たくみに</surface>
+    <link>5</link>
     <type>elem</type>
-    <noun_surface>寝屋川</noun_surface>
+    <noun_surface>たくみ</noun_surface>
+    <category>人</category>
+    <part_surface> に </part_surface>
     <semrole>場所</semrole>
     <similar>1.0</similar>
     <sentelem>ADVERBIAL</sentelem>
     <morph id="0">
-      <surface>寝屋川</surface>
-      <read>ネヤガワ</read>
-      <base>寝屋川</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
+      <surface>たくみ</surface>
+      <read>タクミ</read>
+      <base>たくみ</base>
+      <pos>名詞,固有名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>B-LOCATION</ne>
+      <ne>O</ne>
     </morph>
     <morph id="1">
       <surface>に</surface>
@@ -1399,58 +572,50 @@
       <ne>O</ne>
     </morph>
   </chunk>
-  <chunk id="2">
-    <surface>住んでいる</surface>
+  <chunk id="5">
+    <surface>描かれている。</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>住む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-身体的動作-基本的生活-滞在</semantic>
+    <noun_surface>描く</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
     <similar>2.0</similar>
-    <voice>ACTIVE</voice>
+    <voice>PASSIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
     <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
+    <mod>2</mod>
+    <mod>3</mod>
+    <mod>4</mod>
     <morph id="0">
-      <surface>住ん</surface>
-      <read>スン</read>
-      <base>住む</base>
+      <surface>描か</surface>
+      <read>エガカ</read>
+      <base>描く</base>
       <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
+      <ctype>未然形</ctype>
+      <cform>五段・カ行イ音便</cform>
       <ne>O</ne>
       <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
+        <type>未然形</type>
+        <form>基本形,く,ク</form>
+        <form>未然形,か,カ</form>
+        <form>未然ウ接続,こ,コ</form>
+        <form>連用形,き,キ</form>
+        <form>連用タ接続,い,イ</form>
+        <form>仮定形,け,ケ</form>
+        <form>命令ｅ,け,ケ</form>
+        <form>仮定縮約１,きゃ,キャ</form>
       </cchart>
     </morph>
     <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
-      <ctype>基本形</ctype>
+      <surface>れ</surface>
+      <read>レ</read>
+      <base>れる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>連用形</ctype>
       <cform>一段</cform>
       <ne>O</ne>
       <cchart>
-        <type>基本形</type>
+        <type>連用形</type>
         <form>基本形,る,ル</form>
         <form>未然形,*,*</form>
         <form>未然ウ接続,よ,ヨ</form>
@@ -1462,336 +627,7 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は高槻に住んでいる</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>高槻に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>高槻</noun_surface>
-    <semrole>場所</semrole>
-    <similar>1.0</similar>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>高槻</surface>
-      <read>タカツキ</read>
-      <base>高槻</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>住んでいる</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>住む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-身体的動作-基本的生活-滞在</semantic>
-    <similar>2.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>住ん</surface>
-      <read>スン</read>
-      <base>住む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
     <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
-      <ctype>基本形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は茨木に住んでいる</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>茨木に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>茨木</noun_surface>
-    <semrole>場所</semrole>
-    <similar>1.0</similar>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>茨木</surface>
-      <read>イバラギ</read>
-      <base>茨木</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>住んでいる</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>住む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-身体的動作-基本的生活-滞在</semantic>
-    <similar>2.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>住ん</surface>
-      <read>スン</read>
-      <base>住む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
-      <ctype>基本形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は高槻に向かっている</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>高槻に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>高槻</noun_surface>
-    <semrole>方向</semrole>
-    <similar>1.0</similar>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>高槻</surface>
-      <read>タカツキ</read>
-      <base>高槻</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>向かっている</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>向かう</noun_surface>
-    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-</semantic>
-    <similar>2.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>向かっ</surface>
-      <read>ムカッ</read>
-      <base>向かう</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・ワ行促音便</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,う,ウ</form>
-        <form>未然形,わ,ワ</form>
-        <form>未然ウ接続,お,オ</form>
-        <form>連用形,い,イ</form>
-        <form>連用タ接続,っ,ッ</form>
-        <form>仮定形,え,エ</form>
-        <form>命令ｅ,え,エ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
       <surface>て</surface>
       <read>テ</read>
       <base>て</base>
@@ -1800,7 +636,7 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-    <morph id="2">
+    <morph id="3">
       <surface>いる</surface>
       <read>イル</read>
       <base>いる</base>
@@ -1821,27 +657,271 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
+    <morph id="4">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
   </chunk>
 </sent>
 <sent>
-  <sentence>二郎は高槻で飲んでいる</sentence>
+  <sentence>やがて約250万年前，アフリカに原人が登場した。</sentence>
   <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
+    <surface>やがて</surface>
+    <link>1</link>
     <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>使役</semrole>
+    <noun_surface>やがて</noun_surface>
+    <category>時間</category>
+    <part_surface> </part_surface>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>やがて</surface>
+      <read>ヤガテ</read>
+      <base>やがて</base>
+      <pos>副詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>約250万年前，</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>250万年前</noun_surface>
+    <category>時間</category>
+    <part_surface> </part_surface>
+    <semrole>場所（時）（点）</semrole>
+    <mod>0</mod>
+    <morph id="0">
+      <surface>約</surface>
+      <read>ヤク</read>
+      <base>約</base>
+      <pos>接頭詞,数接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>250</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-DATE</ne>
+    </morph>
+    <morph id="2">
+      <surface>万</surface>
+      <read>マン</read>
+      <base>万</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-DATE</ne>
+    </morph>
+    <morph id="3">
+      <surface>年</surface>
+      <read>ネン</read>
+      <base>年</base>
+      <pos>名詞,接尾,助数詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-DATE</ne>
+    </morph>
+    <morph id="4">
+      <surface>前</surface>
+      <read>マエ</read>
+      <base>前</base>
+      <pos>名詞,副詞可能</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-DATE</ne>
+    </morph>
+    <morph id="5">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>アフリカに</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>アフリカ</noun_surface>
+    <category>場所</category>
+    <part_surface> に </part_surface>
+    <semrole>着点</semrole>
+    <similar>3.0</similar>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>アフリカ</surface>
+      <read>アフリカ</read>
+      <base>アフリカ</base>
+      <pos>名詞,固有名詞,地域,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>原人が</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>原人</noun_surface>
+    <category>生物</category>
+    <part_surface> が </part_surface>
+    <semrole>動作主</semrole>
     <similar>1.0</similar>
     <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
+      <surface>原人</surface>
+      <read>ゲンジン</read>
+      <base>原人</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>登場した。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>登場する</noun_surface>
+    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-出現</semantic>
+    <similar>4.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>1</mod>
+    <mod>2</mod>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>登場</surface>
+      <read>トウジョウ</read>
+      <base>登場</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>則天武后は，国号を新と称した。</sentence>
+  <chunk id="0">
+    <surface>則天武后は，</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>則天武后</noun_surface>
+    <category>人</category>
+    <part_surface> は </part_surface>
+    <morph id="0">
+      <surface>則</surface>
+      <read>ノリ</read>
+      <base>則</base>
+      <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>B-PERSON</ne>
     </morph>
     <morph id="1">
+      <surface>天武</surface>
+      <read>テンム</read>
+      <base>天武</base>
+      <pos>名詞,固有名詞,人名,姓</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="2">
+      <surface>后</surface>
+      <read>キサキ</read>
+      <base>后</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
       <surface>は</surface>
       <read>ハ</read>
       <base>は</base>
@@ -1850,26 +930,36 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>高槻で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>高槻</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>高槻</surface>
-      <read>タカツキ</read>
-      <base>高槻</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>B-LOCATION</ne>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>国号を</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>国号</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <morph id="0">
+      <surface>国号</surface>
+      <read>コクゴウ</read>
+      <base>国号</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
       <pos>助詞,格助詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
@@ -1877,12 +967,190 @@
     </morph>
   </chunk>
   <chunk id="2">
-    <surface>飲んでいる</surface>
+    <surface>新と</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>新</noun_surface>
+    <category>時間</category>
+    <part_surface> と </part_surface>
+    <morph id="0">
+      <surface>新</surface>
+      <read>シン</read>
+      <base>新</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>と</surface>
+      <read>ト</read>
+      <base>と</base>
+      <pos>助詞,格助詞,引用</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>称した。</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>飲む</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情変化の引き起こし-感動</semantic>
-    <similar>1.0</similar>
+    <noun_surface>称す</noun_surface>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>1</mod>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>称し</surface>
+      <read>ショウシ</read>
+      <base>称す</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>五段・サ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,す,ス</form>
+        <form>未然形,さ,サ</form>
+        <form>未然ウ接続,そ,ソ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,せ,セ</form>
+        <form>命令ｅ,せ,セ</form>
+        <form>仮定縮約１,しゃ,シャ</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>ナポレオン3世は，大陸封鎖令を発布した。</sentence>
+  <chunk id="0">
+    <surface>ナポレオン3世は，</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>ナポレオン3世</noun_surface>
+    <category>数値</category>
+    <part_surface> は </part_surface>
+    <morph id="0">
+      <surface>ナポレオン</surface>
+      <read>ナポレオン</read>
+      <base>ナポレオン</base>
+      <pos>名詞,固有名詞,人名,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-ARTIFACT</ne>
+    </morph>
+    <morph id="1">
+      <surface>3</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="2">
+      <surface>世</surface>
+      <read>セイ</read>
+      <base>世</base>
+      <pos>名詞,接尾,助数詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="3">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>大陸封鎖令を</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>大陸封鎖令</noun_surface>
+    <morph id="0">
+      <surface>大陸</surface>
+      <read>タイリク</read>
+      <base>大陸</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>封鎖</surface>
+      <read>フウサ</read>
+      <base>封鎖</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>令</surface>
+      <read>レイ</read>
+      <base>令</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>発布した。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>発布する</noun_surface>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
@@ -1890,44 +1158,445 @@
     <mod>0</mod>
     <mod>1</mod>
     <morph id="0">
-      <surface>飲ん</surface>
-      <read>ノン</read>
-      <base>飲む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
+      <surface>発布</surface>
+      <read>ハップ</read>
+      <base>発布</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
       <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
     </morph>
     <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>で</base>
-      <pos>助詞,接続助詞</pos>
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>ヴィルヘルム2世は，社会主義者鎮圧法を制定した。</sentence>
+  <chunk id="0">
+    <surface>ヴィルヘルム</surface>
+    <link>1</link>
+    <type>elem</type>
+    <noun_surface>ヴィルヘルム</noun_surface>
+    <morph id="0">
+      <surface>ヴィルヘルム</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>2世は，</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>2世</noun_surface>
+    <category>数値</category>
+    <part_surface> は </part_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <mod>0</mod>
+    <morph id="0">
+      <surface>2</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>世</surface>
+      <read>セイ</read>
+      <base>世</base>
+      <pos>名詞,接尾,助数詞</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
     <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>社会主義者鎮圧法を</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>社会主義者鎮圧法</noun_surface>
+    <semrole>対象（生成物）</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>社会</surface>
+      <read>シャカイ</read>
+      <base>社会</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-ARTIFACT</ne>
+    </morph>
+    <morph id="1">
+      <surface>主義</surface>
+      <read>シュギ</read>
+      <base>主義</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="2">
+      <surface>者</surface>
+      <read>シャ</read>
+      <base>者</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="3">
+      <surface>鎮圧</surface>
+      <read>チンアツ</read>
+      <base>鎮圧</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="4">
+      <surface>法</surface>
+      <read>ホウ</read>
+      <base>法</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-ARTIFACT</ne>
+    </morph>
+    <morph id="5">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>制定した。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>制定する</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
+    <similar>2.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>1</mod>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>制定</surface>
+      <read>セイテイ</read>
+      <base>制定</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
       <ctype>基本形</ctype>
-      <cform>一段</cform>
+      <cform>特殊・タ</cform>
       <ne>O</ne>
       <cchart>
         <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>イヴァン3世は，ツアーリ（皇帝）の称号を用いた。</sentence>
+  <chunk id="0">
+    <surface>イヴァン</surface>
+    <link>1</link>
+    <type>elem</type>
+    <noun_surface>イヴァン</noun_surface>
+    <morph id="0">
+      <surface>イヴァン</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>3世は，</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>3世</noun_surface>
+    <category>数値</category>
+    <part_surface> は </part_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <mod>0</mod>
+    <morph id="0">
+      <surface>3</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>世</surface>
+      <read>セイ</read>
+      <base>世</base>
+      <pos>名詞,接尾,助数詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>ツアーリ</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>ツアーリ</noun_surface>
+    <morph id="0">
+      <surface>ツアーリ</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>（皇帝）の</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>皇帝</noun_surface>
+    <category>人</category>
+    <part_surface> </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>（</surface>
+      <read>（</read>
+      <base>（</base>
+      <pos>記号,括弧開</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>皇帝</surface>
+      <read>コウテイ</read>
+      <base>皇帝</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-ARTIFACT</ne>
+    </morph>
+    <morph id="2">
+      <surface>）</surface>
+      <read>）</read>
+      <base>）</base>
+      <pos>記号,括弧閉</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>称号を</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>称号</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <semrole>対象</semrole>
+    <similar>5.0</similar>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>称号</surface>
+      <read>ショウゴウ</read>
+      <base>称号</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>用いた。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>用いる</noun_surface>
+    <semantic>状態変化なし（活動）-身体的動作-利用--</semantic>
+    <similar>6.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>1</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>用い</surface>
+      <read>モチイ</read>
+      <base>用いる</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
         <form>基本形,る,ル</form>
         <form>未然形,*,*</form>
         <form>未然ウ接続,よ,ヨ</form>
@@ -1939,27 +1608,101 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
+    <morph id="1">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
   </chunk>
 </sent>
 <sent>
-  <sentence>太郎は一人暮らしである</sentence>
+  <sentence>欧陽脩や蘇軾は，唐代を代表する文筆家である。</sentence>
   <chunk id="0">
-    <surface>太郎は</surface>
+    <surface>欧陽脩や</surface>
     <link>1</link>
     <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
+    <noun_surface>欧陽脩</noun_surface>
     <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
+      <surface>欧</surface>
+      <read>オウ</read>
+      <base>欧</base>
+      <pos>名詞,固有名詞,地域,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>B-PERSON</ne>
     </morph>
     <morph id="1">
+      <surface>陽</surface>
+      <read>ヒ</read>
+      <base>陽</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="2">
+      <surface>脩</surface>
+      <read>オサム</read>
+      <base>脩</base>
+      <pos>名詞,固有名詞,人名,名</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="3">
+      <surface>や</surface>
+      <read>ヤ</read>
+      <base>や</base>
+      <pos>助詞,並立助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>蘇軾は，</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>蘇軾</noun_surface>
+    <mod>0</mod>
+    <morph id="0">
+      <surface>蘇</surface>
+      <read>ソ</read>
+      <base>蘇</base>
+      <pos>名詞,固有名詞,人名,姓</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>軾</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="2">
       <surface>は</surface>
       <read>ハ</read>
       <base>は</base>
@@ -1968,22 +1711,334 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
   </chunk>
-  <chunk id="1">
-    <surface>一人暮らしである</surface>
+  <chunk id="2">
+    <surface>唐代を</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>唐代</noun_surface>
+    <category>時間</category>
+    <part_surface> を </part_surface>
+    <semrole>場所（時）（点）</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>唐</surface>
+      <read>トウ</read>
+      <base>唐</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>代</surface>
+      <read>ダイ</read>
+      <base>代</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>代表する</surface>
+    <link>4</link>
+    <type>verb</type>
+    <noun_surface>代表する</noun_surface>
+    <semantic>状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-代理-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>代表</surface>
+      <read>ダイヒョウ</read>
+      <base>代表</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>する</surface>
+      <read>スル</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>基本形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>文筆家である。</surface>
     <link>-1</link>
     <type>copula</type>
-    <noun_surface>一人暮らしだ</noun_surface>
+    <noun_surface>文筆家だ</noun_surface>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>1</mod>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>文筆</surface>
+      <read>ブンピツ</read>
+      <base>文筆</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>家</surface>
+      <read>カ</read>
+      <base>家</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>だ</base>
+      <pos>助動詞</pos>
+      <ctype>連用形</ctype>
+      <cform>特殊・ダ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,だ,ダ</form>
+        <form>未然形,だろ,ダロ</form>
+        <form>未然形,だら,ダラ</form>
+        <form>連用形,で,デ</form>
+        <form>連用タ接続,だっ,ダッ</form>
+        <form>体言接続,な,ナ</form>
+        <form>仮定形,なら,ナラ</form>
+        <form>命令ｅ,なれ,ナレ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>ある</surface>
+      <read>アル</read>
+      <base>ある</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>五段・ラ行アル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="4">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>顔真卿は，宋代を代表する書家である。</sentence>
+  <chunk id="0">
+    <surface>顔真卿は，</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>顔真卿</noun_surface>
+    <morph id="0">
+      <surface>顔</surface>
+      <read>カオ</read>
+      <base>顔</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>真</surface>
+      <read>マ</read>
+      <base>真</base>
+      <pos>接頭詞,名詞接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>卿</surface>
+      <read>キョウ</read>
+      <base>卿</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>宋代を</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>宋代</noun_surface>
+    <semrole>対象</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>宋</surface>
+      <read>ソウ</read>
+      <base>宋</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>代</surface>
+      <read>ダイ</read>
+      <base>代</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>代表する</surface>
+    <link>3</link>
+    <type>verb</type>
+    <noun_surface>代表する</noun_surface>
+    <semantic>状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-代理-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>代表</surface>
+      <read>ダイヒョウ</read>
+      <base>代表</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>する</surface>
+      <read>スル</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>基本形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>書家である。</surface>
+    <link>-1</link>
+    <type>copula</type>
+    <noun_surface>書家だ</noun_surface>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
     <sentelem>PREDICATE</sentelem>
     <mod>0</mod>
+    <mod>2</mod>
     <morph id="0">
-      <surface>一人暮らし</surface>
-      <read>ヒトリグラシ</read>
-      <base>一人暮らし</base>
-      <pos>名詞,サ変接続</pos>
+      <surface>書家</surface>
+      <read>ショカ</read>
+      <base>書家</base>
+      <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
@@ -2029,48 +2084,31 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎は同い年の妻と同居している</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>3</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
-  <chunk id="1">
-    <surface>同い年の</surface>
-    <link>2</link>
+</sent>
+<sent>
+  <sentence>宋の王安石は，新法と呼ばれる改革を行った。</sentence>
+  <chunk id="0">
+    <surface>宋の</surface>
+    <link>1</link>
     <type>elem</type>
-    <noun_surface>同い年</noun_surface>
-    <category>その他</category>
+    <noun_surface>宋</noun_surface>
+    <category>人</category>
     <part_surface> </part_surface>
     <sentelem>ADNOMINAL</sentelem>
     <morph id="0">
-      <surface>同い年</surface>
-      <read>オナイドシ</read>
-      <base>同い年</base>
+      <surface>宋</surface>
+      <read>ソウ</read>
+      <base>宋</base>
       <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
@@ -2086,20 +2124,286 @@
       <ne>O</ne>
     </morph>
   </chunk>
+  <chunk id="1">
+    <surface>王安石は，</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>王安石</noun_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <mod>0</mod>
+    <morph id="0">
+      <surface>王</surface>
+      <read>オウ</read>
+      <base>王</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>安</surface>
+      <read>ヤス</read>
+      <base>安</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>石</surface>
+      <read>セキ</read>
+      <base>石</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
   <chunk id="2">
-    <surface>妻と</surface>
+    <surface>新法と</surface>
     <link>3</link>
     <type>elem</type>
-    <noun_surface>妻</noun_surface>
-    <category>人</category>
+    <noun_surface>新法</noun_surface>
+    <category>モノ</category>
     <part_surface> と </part_surface>
-    <semrole>相互（人）</semrole>
-    <similar>2.5</similar>
-    <mod>1</mod>
+    <semrole>補語相当（を）</semrole>
+    <similar>1.0</similar>
     <morph id="0">
-      <surface>妻</surface>
-      <read>ツマ</read>
-      <base>妻</base>
+      <surface>新法</surface>
+      <read>シンポウ</read>
+      <base>新法</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>と</surface>
+      <read>ト</read>
+      <base>と</base>
+      <pos>助詞,格助詞,引用</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>呼ばれる</surface>
+    <link>4</link>
+    <type>verb</type>
+    <noun_surface>呼ぶ</noun_surface>
+    <semantic>状態変化なし（状態）-（人間生活・社会に関する）対象の性質-判断（認定）に基づく性質（物）-定義・命名-命名</semantic>
+    <similar>1.0</similar>
+    <voice>PASSIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>呼ば</surface>
+      <read>ヨバ</read>
+      <base>呼ぶ</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然形</ctype>
+      <cform>五段・バ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>未然形</type>
+        <form>基本形,ぶ,ブ</form>
+        <form>未然形,ば,バ</form>
+        <form>未然ウ接続,ぼ,ボ</form>
+        <form>連用形,び,ビ</form>
+        <form>連用タ接続,ん,ン</form>
+        <form>仮定形,べ,ベ</form>
+        <form>命令ｅ,べ,ベ</form>
+        <form>仮定縮約１,びゃ,ビャ</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>れる</surface>
+      <read>レル</read>
+      <base>れる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>基本形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>改革を</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>改革</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <semrole>対象（動作）</semrole>
+    <similar>1.0</similar>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>改革</surface>
+      <read>カイカク</read>
+      <base>改革</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>行った。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>行う</noun_surface>
+    <semantic>状態変化なし（活動）-実行-実行-実行-行う</semantic>
+    <similar>2.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>1</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>行っ</surface>
+      <read>オコナッ</read>
+      <base>行う</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用タ接続</ctype>
+      <cform>五段・ワ行促音便</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用タ接続</type>
+        <form>基本形,う,ウ</form>
+        <form>未然形,わ,ワ</form>
+        <form>未然ウ接続,お,オ</form>
+        <form>連用形,い,イ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,え,エ</form>
+        <form>命令ｅ,え,エ</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>秦檜は，元との関係をめぐり主戦派と対立した。</sentence>
+  <chunk id="0">
+    <surface>秦檜は，</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>秦檜</noun_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>秦</surface>
+      <read>ハタ</read>
+      <base>秦</base>
+      <pos>名詞,固有名詞,人名,姓</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>檜</surface>
+      <read>ヒノキ</read>
+      <base>檜</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="2">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>元との</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>元</noun_surface>
+    <category>その他</category>
+    <part_surface> と </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <morph id="0">
+      <surface>元</surface>
+      <read>モト</read>
+      <base>元</base>
       <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
@@ -2114,14 +2418,641 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
+    <morph id="2">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>関係を</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>関係</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <semrole>場所</semrole>
+    <similar>1.0</similar>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>関係</surface>
+      <read>カンケイ</read>
+      <base>関係</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
   </chunk>
   <chunk id="3">
-    <surface>同居している</surface>
+    <surface>めぐり</surface>
+    <link>5</link>
+    <type>verb</type>
+    <noun_surface>めぐる</noun_surface>
+    <semantic>状態変化なし（活動）-移動動作-移動動作（物理）-循環-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>めぐり</surface>
+      <read>メグリ</read>
+      <base>めぐる</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>五段・ラ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然特殊,ん,ン</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+        <form>体言接続特殊２,*,*</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>主戦派と</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>主戦派</noun_surface>
+    <semrole>相互（人）</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>主戦</surface>
+      <read>シュセン</read>
+      <base>主戦</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>派</surface>
+      <read>ハ</read>
+      <base>派</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>と</surface>
+      <read>ト</read>
+      <base>と</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>対立した。</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>同居する</noun_surface>
-    <semantic>状態変化なし（活動）-共同動作-共同動作-共同-</semantic>
-    <similar>3.5</similar>
+    <noun_surface>対立する</noun_surface>
+    <semantic>状態変化なし（活動）-相手との関係の変化のための動作-対抗-対決-</semantic>
+    <similar>2.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>3</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>対立</surface>
+      <read>タイリツ</read>
+      <base>対立</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>ポエニ戦争後，重装歩兵として従軍した農民層は経済的に豊かになった。</sentence>
+  <chunk id="0">
+    <surface>ポエニ戦争後，</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>ポエニ戦争後</noun_surface>
+    <morph id="0">
+      <surface>ポエニ</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>戦争</surface>
+      <read>センソウ</read>
+      <base>戦争</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>後</surface>
+      <read>ゴ</read>
+      <base>後</base>
+      <pos>名詞,接尾,副詞可能</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>重装歩兵として</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>重装歩兵</noun_surface>
+    <morph id="0">
+      <surface>重</surface>
+      <read>ジュウ</read>
+      <base>重</base>
+      <pos>接頭詞,名詞接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>装</surface>
+      <read>ソウ</read>
+      <base>装</base>
+      <pos>名詞,固有名詞,人名,名</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>歩兵</surface>
+      <read>ホヘイ</read>
+      <base>歩兵</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>として</surface>
+      <read>トシテ</read>
+      <base>として</base>
+      <pos>助詞,格助詞,連語</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>従軍した</surface>
+    <link>3</link>
+    <type>verb</type>
+    <noun_surface>従軍する</noun_surface>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>0</mod>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>従軍</surface>
+      <read>ジュウグン</read>
+      <base>従軍</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>農民層は</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>農民層</noun_surface>
+    <semrole>対象（生成物）</semrole>
+    <similar>1.0</similar>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>農民</surface>
+      <read>ノウミン</read>
+      <base>農民</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>層</surface>
+      <read>ソウ</read>
+      <base>層</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>経済的に</surface>
+    <link>5</link>
+    <type>adjective</type>
+    <noun_surface>的だ</noun_surface>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>経済</surface>
+      <read>ケイザイ</read>
+      <base>経済</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>的</surface>
+      <read>テキ</read>
+      <base>的</base>
+      <pos>名詞,接尾,形容動詞語幹</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,副詞化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>豊かになった。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>なる</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>3</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>豊か</surface>
+      <read>ユタカ</read>
+      <base>豊か</base>
+      <pos>名詞,形容動詞語幹</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>なっ</surface>
+      <read>ナッ</read>
+      <base>なる</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用タ接続</ctype>
+      <cform>五段・ラ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用タ接続</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然特殊,ん,ン</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+        <form>体言接続特殊２,*,*</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="4">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>八旗は，順治帝が創設した軍隊である。</sentence>
+  <chunk id="0">
+    <surface>八旗は，</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>八旗</noun_surface>
+    <category>数値</category>
+    <part_surface> は </part_surface>
+    <morph id="0">
+      <surface>八</surface>
+      <read>ハチ</read>
+      <base>八</base>
+      <pos>名詞,数</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>旗</surface>
+      <read>ハタ</read>
+      <base>旗</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>順治帝が</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>順治帝</noun_surface>
+    <semrole>動作主</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>順治</surface>
+      <read>ジュンジ</read>
+      <base>順治</base>
+      <pos>名詞,固有名詞,人名,名</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>帝</surface>
+      <read>ミカド</read>
+      <base>帝</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-PERSON</ne>
+    </morph>
+    <morph id="2">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>創設した</surface>
+    <link>3</link>
+    <type>verb</type>
+    <noun_surface>創設する</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>創設</surface>
+      <read>ソウセツ</read>
+      <base>創設</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>し</surface>
+      <read>シ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用形</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>軍隊である。</surface>
+    <link>-1</link>
+    <type>copula</type>
+    <noun_surface>軍隊だ</noun_surface>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
@@ -2129,9 +3060,588 @@
     <mod>0</mod>
     <mod>2</mod>
     <morph id="0">
-      <surface>同居</surface>
-      <read>ドウキョ</read>
-      <base>同居</base>
+      <surface>軍隊</surface>
+      <read>グンタイ</read>
+      <base>軍隊</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>だ</base>
+      <pos>助動詞</pos>
+      <ctype>連用形</ctype>
+      <cform>特殊・ダ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,だ,ダ</form>
+        <form>未然形,だろ,ダロ</form>
+        <form>未然形,だら,ダラ</form>
+        <form>連用形,で,デ</form>
+        <form>連用タ接続,だっ,ダッ</form>
+        <form>体言接続,な,ナ</form>
+        <form>仮定形,なら,ナラ</form>
+        <form>命令ｅ,なれ,ナレ</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>ある</surface>
+      <read>アル</read>
+      <base>ある</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>五段・ラ行アル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>イェニチェリは，オスマン帝国の常備軍であった。</sentence>
+  <chunk id="0">
+    <surface>イェニチェリは，</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>イェニチェリ</noun_surface>
+    <morph id="0">
+      <surface>イェニチェリ</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>オスマン帝国の</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>オスマン帝国</noun_surface>
+    <category>場所</category>
+    <part_surface> </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <morph id="0">
+      <surface>オスマン</surface>
+      <read>オスマン</read>
+      <base>オスマン</base>
+      <pos>名詞,固有名詞,人名,姓</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>帝国</surface>
+      <read>テイコク</read>
+      <base>帝国</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>常備軍であった。</surface>
+    <link>-1</link>
+    <type>copula</type>
+    <noun_surface>常備軍だ</noun_surface>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>常備</surface>
+      <read>ジョウビ</read>
+      <base>常備</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>軍</surface>
+      <read>グン</read>
+      <base>軍</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>だ</base>
+      <pos>助動詞</pos>
+      <ctype>連用形</ctype>
+      <cform>特殊・ダ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,だ,ダ</form>
+        <form>未然形,だろ,ダロ</form>
+        <form>未然形,だら,ダラ</form>
+        <form>連用形,で,デ</form>
+        <form>連用タ接続,だっ,ダッ</form>
+        <form>体言接続,な,ナ</form>
+        <form>仮定形,なら,ナラ</form>
+        <form>命令ｅ,なれ,ナレ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>あっ</surface>
+      <read>アッ</read>
+      <base>ある</base>
+      <pos>助動詞</pos>
+      <ctype>連用タ接続</ctype>
+      <cform>五段・ラ行アル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用タ接続</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="4">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="5">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>フランク王国では，テマ制(軍管区制)の下で屯田兵制が行われた。</sentence>
+  <chunk id="0">
+    <surface>フランク王国では，</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>フランク王国</noun_surface>
+    <semrole>原因</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>フランク</surface>
+      <read>フランク</read>
+      <base>フランク</base>
+      <pos>名詞,固有名詞,人名,名</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>王国</surface>
+      <read>オウコク</read>
+      <base>王国</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>で</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>テマ制(軍管区制)の</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>テマ制(軍管区制)</noun_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <morph id="0">
+      <surface>テマ</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>制</surface>
+      <read>セイ</read>
+      <base>制</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>(</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>軍</surface>
+      <read>グン</read>
+      <base>軍</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>管区</surface>
+      <read>カンク</read>
+      <base>管区</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="5">
+      <surface>制</surface>
+      <read>セイ</read>
+      <base>制</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="6">
+      <surface>)</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="7">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>下で</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>下</noun_surface>
+    <category>その他</category>
+    <part_surface> で </part_surface>
+    <semrole>原因</semrole>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>下</surface>
+      <read>シタ</read>
+      <base>下</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>で</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>屯田兵制が</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>屯田兵制</noun_surface>
+    <morph id="0">
+      <surface>屯田</surface>
+      <read>トンデン</read>
+      <base>屯田</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>兵制</surface>
+      <read>ヘイセイ</read>
+      <base>兵制</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>行われた。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>行う</noun_surface>
+    <semantic>状態変化なし（活動）-実行-実行-実行-行う</semantic>
+    <similar>1.0</similar>
+    <voice>PASSIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>2</mod>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>行わ</surface>
+      <read>オコナワ</read>
+      <base>行う</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然形</ctype>
+      <cform>五段・ワ行促音便</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>未然形</type>
+        <form>基本形,う,ウ</form>
+        <form>未然形,わ,ワ</form>
+        <form>未然ウ接続,お,オ</form>
+        <form>連用形,い,イ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,え,エ</form>
+        <form>命令ｅ,え,エ</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>れ</surface>
+      <read>レ</read>
+      <base>れる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>連用形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>イギリスは，マカートニーを派遣して清に自由貿易を認めさせた。</sentence>
+  <chunk id="0">
+    <surface>イギリスは，</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>イギリス</noun_surface>
+    <category>場所</category>
+    <part_surface> は </part_surface>
+    <semrole>場所</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>イギリス</surface>
+      <read>イギリス</read>
+      <base>イギリス</base>
+      <pos>名詞,固有名詞,地域,国</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>マカートニーを</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>マカートニー</noun_surface>
+    <semrole>対象</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>マカートニー</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>派遣して</surface>
+    <link>5</link>
+    <type>verb</type>
+    <noun_surface>派遣する</noun_surface>
+    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>派遣</surface>
+      <read>ハケン</read>
+      <base>派遣</base>
       <pos>名詞,サ変接続</pos>
       <ctype></ctype>
       <cform></cform>
@@ -2173,16 +3683,96 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-    <morph id="3">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
-      <ctype>基本形</ctype>
+  </chunk>
+  <chunk id="3">
+    <surface>清に</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>清</noun_surface>
+    <category>人</category>
+    <part_surface> に </part_surface>
+    <sentelem>ADVERBIAL</sentelem>
+    <morph id="0">
+      <surface>清</surface>
+      <read>キヨシ</read>
+      <base>清</base>
+      <pos>名詞,固有名詞,人名,名</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>自由貿易を</surface>
+    <link>5</link>
+    <type>adjective</type>
+    <noun_surface>自由だ</noun_surface>
+    <semantic>状態変化なし（状態）-主体の性質-状況-可能／不可能-自由</semantic>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <morph id="0">
+      <surface>自由</surface>
+      <read>ジユウ</read>
+      <base>自由</base>
+      <pos>名詞,形容動詞語幹</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>貿易</surface>
+      <read>ボウエキ</read>
+      <base>貿易</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>認めさせた。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>認める</noun_surface>
+    <semantic>状態変化あり-位置変化-取得（情報）-発見-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>2</mod>
+    <mod>3</mod>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>認め</surface>
+      <read>ミトメ</read>
+      <base>認める</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然形</ctype>
       <cform>一段</cform>
       <ne>O</ne>
       <cchart>
-        <type>基本形</type>
+        <type>未然形</type>
         <form>基本形,る,ル</form>
         <form>未然形,*,*</form>
         <form>未然ウ接続,よ,ヨ</form>
@@ -2194,94 +3784,11 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>花子は高槻市に勤めている</sentence>
-  <chunk id="0">
-    <surface>花子は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>花子</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>2.0</similar>
-    <morph id="0">
-      <surface>花子</surface>
-      <read>ハナコ</read>
-      <base>花子</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
     <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>高槻市に</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>高槻市</noun_surface>
-    <category>場所</category>
-    <part_surface> に </part_surface>
-    <semrole>着点</semrole>
-    <similar>3.0</similar>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>高槻</surface>
-      <read>タカツキ</read>
-      <base>高槻</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-LOCATION</ne>
-    </morph>
-    <morph id="1">
-      <surface>市</surface>
-      <read>シ</read>
-      <base>市</base>
-      <pos>名詞,接尾,地域</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>I-LOCATION</ne>
-    </morph>
-    <morph id="2">
-      <surface>に</surface>
-      <read>ニ</read>
-      <base>に</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>勤めている</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>勤める</noun_surface>
-    <semantic>状態変化なし（活動）-移動動作-移動動作（物理）-習慣的移動動作-</semantic>
-    <similar>5.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>勤め</surface>
-      <read>ツトメ</read>
-      <base>勤める</base>
-      <pos>動詞,自立</pos>
+      <surface>させ</surface>
+      <read>サセ</read>
+      <base>させる</base>
+      <pos>動詞,接尾</pos>
       <ctype>連用形</ctype>
       <cform>一段</cform>
       <ne>O</ne>
@@ -2298,79 +3805,48 @@
         <form>体言接続特殊,ん,ン</form>
       </cchart>
     </morph>
-    <morph id="1">
-      <surface>て</surface>
-      <read>テ</read>
-      <base>て</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
     <morph id="2">
-      <surface>いる</surface>
-      <read>イル</read>
-      <base>いる</base>
-      <pos>動詞,非自立</pos>
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
       <ctype>基本形</ctype>
-      <cform>一段</cform>
+      <cform>特殊・タ</cform>
       <ne>O</ne>
       <cchart>
         <type>基本形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
       </cchart>
+    </morph>
+    <morph id="3">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
     </morph>
   </chunk>
 </sent>
 <sent>
-  <sentence>花子は香川で生まれた</sentence>
+  <sentence>イギリスでは，機械を打ち壊すラダイト運動が起こった。</sentence>
   <chunk id="0">
-    <surface>花子は</surface>
-    <link>2</link>
+    <surface>イギリスでは，</surface>
+    <link>4</link>
     <type>elem</type>
-    <noun_surface>花子</noun_surface>
-    <category>人</category>
+    <noun_surface>イギリス</noun_surface>
+    <category>場所</category>
     <part_surface> は </part_surface>
-    <semrole>対象（生成物）</semrole>
+    <semrole>場所</semrole>
     <similar>1.0</similar>
     <morph id="0">
-      <surface>花子</surface>
-      <read>ハナコ</read>
-      <base>花子</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>香川で</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>香川</noun_surface>
-    <semrole>原因</semrole>
-    <morph id="0">
-      <surface>香川</surface>
-      <read>カガワ</read>
-      <base>香川</base>
-      <pos>名詞,固有名詞,地域,一般</pos>
+      <surface>イギリス</surface>
+      <read>イギリス</read>
+      <base>イギリス</base>
+      <pos>名詞,固有名詞,地域,国</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>B-LOCATION</ne>
@@ -2384,77 +3860,7 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>生まれた</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>生まれる</noun_surface>
-    <semantic>状態変化あり-主体の変化-心理的変化-感情の（発生／生滅）・感情の変化-発生</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>た</surface>
-      <read>タ</read>
-      <base>た</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>花子は１２月生まれである</sentence>
-  <chunk id="0">
-    <surface>花子は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>花子</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <morph id="0">
-      <surface>花子</surface>
-      <read>ハナコ</read>
-      <base>花子</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
+    <morph id="2">
       <surface>は</surface>
       <read>ハ</read>
       <base>は</base>
@@ -2463,75 +3869,135 @@
       <cform></cform>
       <ne>O</ne>
     </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>１２月</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>１２月</noun_surface>
-    <sentelem>ADVERBIAL</sentelem>
-    <morph id="0">
-      <surface>１２月</surface>
-      <read>ジュウニガツ</read>
-      <base>１２月</base>
-      <pos>名詞,副詞可能</pos>
+    <morph id="3">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
-  <chunk id="2">
-    <surface>生まれである</surface>
-    <link>-1</link>
-    <type>copula</type>
-    <noun_surface>生まれだ</noun_surface>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
+  <chunk id="1">
+    <surface>機械を</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>機械</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <semrole>対象</semrole>
+    <similar>3.0</similar>
     <morph id="0">
-      <surface>生まれ</surface>
-      <read>ウマレ</read>
-      <base>生まれ</base>
+      <surface>機械</surface>
+      <read>キカイ</read>
+      <base>機械</base>
       <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>で</surface>
-      <read>デ</read>
-      <base>だ</base>
-      <pos>助動詞</pos>
-      <ctype>連用形</ctype>
-      <cform>特殊・ダ</cform>
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
       <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,だ,ダ</form>
-        <form>未然形,だろ,ダロ</form>
-        <form>未然形,だら,ダラ</form>
-        <form>連用形,で,デ</form>
-        <form>連用タ接続,だっ,ダッ</form>
-        <form>体言接続,な,ナ</form>
-        <form>仮定形,なら,ナラ</form>
-        <form>命令ｅ,なれ,ナレ</form>
-      </cchart>
     </morph>
-    <morph id="2">
-      <surface>ある</surface>
-      <read>アル</read>
-      <base>ある</base>
-      <pos>助動詞</pos>
+  </chunk>
+  <chunk id="2">
+    <surface>打ち壊す</surface>
+    <link>3</link>
+    <type>verb</type>
+    <noun_surface>打ち壊す</noun_surface>
+    <semantic>状態変化あり-対象の変化-物理的変化-形状（その他）-破壊</semantic>
+    <similar>3.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>打ち壊す</surface>
+      <read>ウチコワス</read>
+      <base>打ち壊す</base>
+      <pos>動詞,自立</pos>
       <ctype>基本形</ctype>
-      <cform>五段・ラ行アル</cform>
+      <cform>五段・サ行</cform>
       <ne>O</ne>
       <cchart>
         <type>基本形</type>
+        <form>基本形,す,ス</form>
+        <form>未然形,さ,サ</form>
+        <form>未然ウ接続,そ,ソ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,せ,セ</form>
+        <form>命令ｅ,せ,セ</form>
+        <form>仮定縮約１,しゃ,シャ</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>ラダイト運動が</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>ラダイト運動</noun_surface>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>ラダイト</surface>
+      <read></read>
+      <base>*</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>運動</surface>
+      <read>ウンドウ</read>
+      <base>運動</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>起こった。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>起こる</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>0</mod>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>起こっ</surface>
+      <read>オコッ</read>
+      <base>起こる</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用タ接続</ctype>
+      <cform>五段・ラ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用タ接続</type>
         <form>基本形,る,ル</form>
         <form>未然形,ら,ラ</form>
+        <form>未然特殊,ん,ン</form>
         <form>未然ウ接続,ろ,ロ</form>
         <form>連用形,り,リ</form>
         <form>連用タ接続,っ,ッ</form>
@@ -2539,553 +4005,10 @@
         <form>命令ｅ,れ,レ</form>
         <form>仮定縮約１,りゃ,リャ</form>
         <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎はビールを飲んだ</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>ビールを</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>ビール</noun_surface>
-    <category>モノ</category>
-    <part_surface> を </part_surface>
-    <semrole>対象</semrole>
-    <similar>5.0</similar>
-    <morph id="0">
-      <surface>ビール</surface>
-      <read>ビール</read>
-      <base>ビール</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>を</surface>
-      <read>ヲ</read>
-      <base>を</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>飲んだ</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>飲む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-飲食-飲食-</semantic>
-    <similar>6.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>飲ん</surface>
-      <read>ノン</read>
-      <base>飲む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
+        <form>体言接続特殊２,*,*</form>
       </cchart>
     </morph>
     <morph id="1">
-      <surface>だ</surface>
-      <read>ダ</read>
-      <base>だ</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>太郎はビールを飲んだ</sentence>
-  <chunk id="0">
-    <surface>太郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>太郎</noun_surface>
-    <category>人</category>
-    <part_surface> は </part_surface>
-    <semrole>動作主</semrole>
-    <similar>4.321928</similar>
-    <morph id="0">
-      <surface>太郎</surface>
-      <read>タロウ</read>
-      <base>太郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>ビールを</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>ビール</noun_surface>
-    <category>モノ</category>
-    <part_surface> を </part_surface>
-    <semrole>対象</semrole>
-    <similar>2.0</similar>
-    <morph id="0">
-      <surface>ビール</surface>
-      <read>ビール</read>
-      <base>ビール</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>を</surface>
-      <read>ヲ</read>
-      <base>を</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>飲んだ</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>飲む</noun_surface>
-    <semantic>状態変化なし（状態）-所有-所有（物理）-所有-</semantic>
-    <similar>6.321928</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>飲ん</surface>
-      <read>ノン</read>
-      <base>飲む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>だ</surface>
-      <read>ダ</read>
-      <base>だ</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>三郎はワインを飲んだ</sentence>
-  <chunk id="0">
-    <surface>三郎は</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>三郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>三郎</surface>
-      <read>サブロウ</read>
-      <base>三郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>ワインを</surface>
-    <link>2</link>
-    <type>elem</type>
-    <noun_surface>ワイン</noun_surface>
-    <category>モノ</category>
-    <part_surface> を </part_surface>
-    <semrole>対象</semrole>
-    <similar>4.0</similar>
-    <morph id="0">
-      <surface>ワイン</surface>
-      <read>ワイン</read>
-      <base>ワイン</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>を</surface>
-      <read>ヲ</read>
-      <base>を</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>飲んだ</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>飲む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-飲食-飲食-</semantic>
-    <similar>5.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <morph id="0">
-      <surface>飲ん</surface>
-      <read>ノン</read>
-      <base>飲む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>だ</surface>
-      <read>ダ</read>
-      <base>だ</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>三郎はビールを５杯飲んだ</sentence>
-  <chunk id="0">
-    <surface>三郎は</surface>
-    <link>3</link>
-    <type>elem</type>
-    <noun_surface>三郎</noun_surface>
-    <semrole>動作主</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>三郎</surface>
-      <read>サブロウ</read>
-      <base>三郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>B-PERSON</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>ビールを</surface>
-    <link>3</link>
-    <type>elem</type>
-    <noun_surface>ビール</noun_surface>
-    <category>モノ</category>
-    <part_surface> を </part_surface>
-    <semrole>対象</semrole>
-    <similar>5.0</similar>
-    <morph id="0">
-      <surface>ビール</surface>
-      <read>ビール</read>
-      <base>ビール</base>
-      <pos>名詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>を</surface>
-      <read>ヲ</read>
-      <base>を</base>
-      <pos>助詞,格助詞,一般</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="2">
-    <surface>５杯</surface>
-    <link>3</link>
-    <type>elem</type>
-    <noun_surface>５杯</noun_surface>
-    <category>数値</category>
-    <part_surface> </part_surface>
-    <morph id="0">
-      <surface>５</surface>
-      <read>ゴ</read>
-      <base>５</base>
-      <pos>名詞,数</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>杯</surface>
-      <read>ハイ</read>
-      <base>杯</base>
-      <pos>名詞,接尾,助数詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="3">
-    <surface>飲んだ</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>飲む</noun_surface>
-    <semantic>状態変化なし（活動）-身体的動作-飲食-飲食-</semantic>
-    <similar>6.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <mod>1</mod>
-    <mod>2</mod>
-    <morph id="0">
-      <surface>飲ん</surface>
-      <read>ノン</read>
-      <base>飲む</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・マ行</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,む,ム</form>
-        <form>未然形,ま,マ</form>
-        <form>未然ウ接続,も,モ</form>
-        <form>連用形,み,ミ</form>
-        <form>連用タ接続,ん,ン</form>
-        <form>仮定形,め,メ</form>
-        <form>命令ｅ,め,メ</form>
-        <form>仮定縮約１,みゃ,ミャ</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>だ</surface>
-      <read>ダ</read>
-      <base>だ</base>
-      <pos>助動詞</pos>
-      <ctype>基本形</ctype>
-      <cform>特殊・タ</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>基本形</type>
-        <form>基本形,*,*</form>
-        <form>未然形,ろ,ロ</form>
-        <form>仮定形,ら,ラ</form>
-      </cchart>
-    </morph>
-  </chunk>
-</sent>
-<sent>
-  <sentence>二郎はつぶれてしまった</sentence>
-  <chunk id="0">
-    <surface>二郎は</surface>
-    <link>1</link>
-    <type>elem</type>
-    <noun_surface>二郎</noun_surface>
-    <semrole>対象</semrole>
-    <similar>1.0</similar>
-    <morph id="0">
-      <surface>二郎</surface>
-      <read>ジロウ</read>
-      <base>二郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-  </chunk>
-  <chunk id="1">
-    <surface>つぶれてしまった</surface>
-    <link>-1</link>
-    <type>verb</type>
-    <noun_surface>つぶれる</noun_surface>
-    <semantic>状態変化あり-対象の変化-物理的変化-形状（その他）-破壊</semantic>
-    <similar>1.0</similar>
-    <voice>ACTIVE</voice>
-    <mood>INDICATIVE</mood>
-    <polarity>AFFIRMATIVE</polarity>
-    <sentelem>PREDICATE</sentelem>
-    <mod>0</mod>
-    <morph id="0">
-      <surface>つぶれ</surface>
-      <read>ツブレ</read>
-      <base>つぶれる</base>
-      <pos>動詞,自立</pos>
-      <ctype>連用形</ctype>
-      <cform>一段</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用形</type>
-        <form>基本形,る,ル</form>
-        <form>未然形,*,*</form>
-        <form>未然ウ接続,よ,ヨ</form>
-        <form>連用形,*,*</form>
-        <form>仮定形,れ,レ</form>
-        <form>命令ｙｏ,よ,ヨ</form>
-        <form>命令ｒｏ,ろ,ロ</form>
-        <form>仮定縮約１,りゃ,リャ</form>
-        <form>体言接続特殊,ん,ン</form>
-      </cchart>
-    </morph>
-    <morph id="1">
-      <surface>て</surface>
-      <read>テ</read>
-      <base>て</base>
-      <pos>助詞,接続助詞</pos>
-      <ctype></ctype>
-      <cform></cform>
-      <ne>O</ne>
-    </morph>
-    <morph id="2">
-      <surface>しまっ</surface>
-      <read>シマッ</read>
-      <base>しまう</base>
-      <pos>動詞,非自立</pos>
-      <ctype>連用タ接続</ctype>
-      <cform>五段・ワ行促音便</cform>
-      <ne>O</ne>
-      <cchart>
-        <type>連用タ接続</type>
-        <form>基本形,う,ウ</form>
-        <form>未然形,わ,ワ</form>
-        <form>未然ウ接続,お,オ</form>
-        <form>連用形,い,イ</form>
-        <form>連用タ接続,っ,ッ</form>
-        <form>仮定形,え,エ</form>
-        <form>命令ｅ,え,エ</form>
-      </cchart>
-    </morph>
-    <morph id="3">
       <surface>た</surface>
       <read>タ</read>
       <base>た</base>
@@ -3100,50 +4023,66 @@
         <form>仮定形,ら,ラ</form>
       </cchart>
     </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
   </chunk>
 </sent>
 <sent>
-  <sentence>三郎は終電を逃した</sentence>
+  <sentence>茶法の廃止をきっかけに，イギリスの北米植民地で，ボストン茶会事件が起こった。</sentence>
   <chunk id="0">
-    <surface>三郎は</surface>
-    <link>2</link>
+    <surface>茶法の</surface>
+    <link>1</link>
     <type>elem</type>
-    <noun_surface>三郎</noun_surface>
-    <semrole>経験者</semrole>
-    <similar>1.0</similar>
+    <noun_surface>茶法</noun_surface>
+    <sentelem>ADNOMINAL</sentelem>
     <morph id="0">
-      <surface>三郎</surface>
-      <read>サブロウ</read>
-      <base>三郎</base>
-      <pos>名詞,固有名詞,人名,名</pos>
+      <surface>茶</surface>
+      <read>チャ</read>
+      <base>茶</base>
+      <pos>名詞,一般</pos>
       <ctype></ctype>
       <cform></cform>
-      <ne>B-PERSON</ne>
+      <ne>O</ne>
     </morph>
     <morph id="1">
-      <surface>は</surface>
-      <read>ハ</read>
-      <base>は</base>
-      <pos>助詞,係助詞</pos>
+      <surface>法</surface>
+      <read>ホウ</read>
+      <base>法</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
     </morph>
   </chunk>
   <chunk id="1">
-    <surface>終電を</surface>
+    <surface>廃止を</surface>
     <link>2</link>
     <type>elem</type>
-    <noun_surface>終電</noun_surface>
+    <noun_surface>廃止</noun_surface>
     <category>モノ</category>
     <part_surface> を </part_surface>
-    <semrole>対象</semrole>
-    <similar>3.0</similar>
+    <mod>0</mod>
     <morph id="0">
-      <surface>終電</surface>
-      <read>シュウデン</read>
-      <base>終電</base>
-      <pos>名詞,一般</pos>
+      <surface>廃止</surface>
+      <read>ハイシ</read>
+      <base>廃止</base>
+      <pos>名詞,サ変接続</pos>
       <ctype></ctype>
       <cform></cform>
       <ne>O</ne>
@@ -3159,22 +4098,541 @@
     </morph>
   </chunk>
   <chunk id="2">
-    <surface>逃した</surface>
+    <surface>きっかけに，</surface>
+    <link>6</link>
+    <type>elem</type>
+    <noun_surface>きっかけ</noun_surface>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>きっかけ</surface>
+      <read>キッカケ</read>
+      <base>きっかけ</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>イギリスの</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>イギリス</noun_surface>
+    <category>場所</category>
+    <part_surface> </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <morph id="0">
+      <surface>イギリス</surface>
+      <read>イギリス</read>
+      <base>イギリス</base>
+      <pos>名詞,固有名詞,地域,国</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>北米植民地で，</surface>
+    <link>6</link>
+    <type>elem</type>
+    <noun_surface>北米植民地</noun_surface>
+    <semrole>原因</semrole>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>北米</surface>
+      <read>ホクベイ</read>
+      <base>北米</base>
+      <pos>名詞,固有名詞,地域,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>植民</surface>
+      <read>ショクミン</read>
+      <base>植民</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-LOCATION</ne>
+    </morph>
+    <morph id="2">
+      <surface>地</surface>
+      <read>チ</read>
+      <base>地</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>I-LOCATION</ne>
+    </morph>
+    <morph id="3">
+      <surface>で</surface>
+      <read>デ</read>
+      <base>で</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="4">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>ボストン茶会事件が</surface>
+    <link>6</link>
+    <type>elem</type>
+    <noun_surface>ボストン茶会事件</noun_surface>
+    <semrole>対象（生成物）</semrole>
+    <similar>1.0</similar>
+    <morph id="0">
+      <surface>ボストン</surface>
+      <read>ボストン</read>
+      <base>ボストン</base>
+      <pos>名詞,固有名詞,地域,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>茶会</surface>
+      <read>チャカイ</read>
+      <base>茶会</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>事件</surface>
+      <read>ジケン</read>
+      <base>事件</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>が</surface>
+      <read>ガ</read>
+      <base>が</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="6">
+    <surface>起こった。</surface>
     <link>-1</link>
     <type>verb</type>
-    <noun_surface>逃す</noun_surface>
-    <semantic>状態変化なし（活動）-非遂行-未実現--</semantic>
-    <similar>4.0</similar>
+    <noun_surface>起こる</noun_surface>
+    <semantic>状態変化あり-生成・消滅-生成（物理）-生成-</semantic>
+    <similar>1.0</similar>
+    <voice>ACTIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <sentelem>PREDICATE</sentelem>
+    <mod>2</mod>
+    <mod>4</mod>
+    <mod>5</mod>
+    <morph id="0">
+      <surface>起こっ</surface>
+      <read>オコッ</read>
+      <base>起こる</base>
+      <pos>動詞,自立</pos>
+      <ctype>連用タ接続</ctype>
+      <cform>五段・ラ行</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>連用タ接続</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,ら,ラ</form>
+        <form>未然特殊,ん,ン</form>
+        <form>未然ウ接続,ろ,ロ</form>
+        <form>連用形,り,リ</form>
+        <form>連用タ接続,っ,ッ</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｅ,れ,レ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+        <form>体言接続特殊２,*,*</form>
+      </cchart>
+    </morph>
+    <morph id="1">
+      <surface>た</surface>
+      <read>タ</read>
+      <base>た</base>
+      <pos>助動詞</pos>
+      <ctype>基本形</ctype>
+      <cform>特殊・タ</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,*,*</form>
+        <form>未然形,ろ,ロ</form>
+        <form>仮定形,ら,ラ</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+</sent>
+<sent>
+  <sentence>ナポレオンは，イギリスとアメリカ合衆国の間の通商を断絶させるために，大陸封鎖令を出した。</sentence>
+  <chunk id="0">
+    <surface>ナポレオンは，</surface>
+    <link>8</link>
+    <type>elem</type>
+    <noun_surface>ナポレオン</noun_surface>
+    <category>人</category>
+    <part_surface> は </part_surface>
+    <semrole>対象</semrole>
+    <similar>3.5849626</similar>
+    <morph id="0">
+      <surface>ナポレオン</surface>
+      <read>ナポレオン</read>
+      <base>ナポレオン</base>
+      <pos>名詞,固有名詞,人名,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-PERSON</ne>
+    </morph>
+    <morph id="1">
+      <surface>は</surface>
+      <read>ハ</read>
+      <base>は</base>
+      <pos>助詞,係助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="1">
+    <surface>イギリスと</surface>
+    <link>2</link>
+    <type>elem</type>
+    <noun_surface>イギリス</noun_surface>
+    <category>場所</category>
+    <part_surface> </part_surface>
+    <morph id="0">
+      <surface>イギリス</surface>
+      <read>イギリス</read>
+      <base>イギリス</base>
+      <pos>名詞,固有名詞,地域,国</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>と</surface>
+      <read>ト</read>
+      <base>と</base>
+      <pos>助詞,並立助詞</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="2">
+    <surface>アメリカ合衆国の</surface>
+    <link>3</link>
+    <type>elem</type>
+    <noun_surface>アメリカ合衆国</noun_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <mod>1</mod>
+    <morph id="0">
+      <surface>アメリカ合衆国</surface>
+      <read>アメリカガッシュウコク</read>
+      <base>アメリカ合衆国</base>
+      <pos>名詞,固有名詞,地域,国</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>B-LOCATION</ne>
+    </morph>
+    <morph id="1">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="3">
+    <surface>間の</surface>
+    <link>4</link>
+    <type>elem</type>
+    <noun_surface>間</noun_surface>
+    <category>その他</category>
+    <part_surface> </part_surface>
+    <sentelem>ADNOMINAL</sentelem>
+    <mod>2</mod>
+    <morph id="0">
+      <surface>間</surface>
+      <read>マ</read>
+      <base>間</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>の</surface>
+      <read>ノ</read>
+      <base>の</base>
+      <pos>助詞,連体化</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="4">
+    <surface>通商を</surface>
+    <link>5</link>
+    <type>elem</type>
+    <noun_surface>通商</noun_surface>
+    <category>モノ</category>
+    <part_surface> を </part_surface>
+    <semrole>対象</semrole>
+    <similar>1.0</similar>
+    <mod>3</mod>
+    <morph id="0">
+      <surface>通商</surface>
+      <read>ツウショウ</read>
+      <base>通商</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="5">
+    <surface>断絶させる</surface>
+    <link>6</link>
+    <type>verb</type>
+    <noun_surface>断絶する</noun_surface>
+    <semantic>状態変化あり-関係の変化-関係の変化（人）-関係そのものの変化-別離</semantic>
+    <similar>1.0</similar>
+    <voice>CAUSATIVE</voice>
+    <mood>INDICATIVE</mood>
+    <polarity>AFFIRMATIVE</polarity>
+    <mod>4</mod>
+    <morph id="0">
+      <surface>断絶</surface>
+      <read>ダンゼツ</read>
+      <base>断絶</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>さ</surface>
+      <read>サ</read>
+      <base>する</base>
+      <pos>動詞,自立</pos>
+      <ctype>未然レル接続</ctype>
+      <cform>サ変・スル</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>未然レル接続</type>
+        <form>基本形,する,スル</form>
+        <form>文語基本形,す,ス</form>
+        <form>未然形,し,シ</form>
+        <form>未然ウ接続,しよ,シヨ</form>
+        <form>未然ウ接続,しょ,ショ</form>
+        <form>未然レル接続,さ,サ</form>
+        <form>未然ヌ接続,せ,セ</form>
+        <form>連用形,し,シ</form>
+        <form>仮定形,すれ,スレ</form>
+        <form>命令ｙｏ,せよ,セヨ</form>
+        <form>命令ｒｏ,しろ,シロ</form>
+        <form>命令ｉ,せい,セイ</form>
+        <form>仮定縮約１,すりゃ,スリャ</form>
+        <form>体言接続特殊,すん,スン</form>
+        <form>体言接続特殊２,す,ス</form>
+      </cchart>
+    </morph>
+    <morph id="2">
+      <surface>せる</surface>
+      <read>セル</read>
+      <base>せる</base>
+      <pos>動詞,接尾</pos>
+      <ctype>基本形</ctype>
+      <cform>一段</cform>
+      <ne>O</ne>
+      <cchart>
+        <type>基本形</type>
+        <form>基本形,る,ル</form>
+        <form>未然形,*,*</form>
+        <form>未然ウ接続,よ,ヨ</form>
+        <form>連用形,*,*</form>
+        <form>仮定形,れ,レ</form>
+        <form>命令ｙｏ,よ,ヨ</form>
+        <form>命令ｒｏ,ろ,ロ</form>
+        <form>仮定縮約１,りゃ,リャ</form>
+        <form>体言接続特殊,ん,ン</form>
+      </cchart>
+    </morph>
+  </chunk>
+  <chunk id="6">
+    <surface>ために，</surface>
+    <link>8</link>
+    <type>elem</type>
+    <noun_surface>ため</noun_surface>
+    <category>モノ</category>
+    <part_surface> に </part_surface>
+    <semrole>着点（抽象）</semrole>
+    <similar>4.321928</similar>
+    <mod>5</mod>
+    <morph id="0">
+      <surface>ため</surface>
+      <read>タメ</read>
+      <base>ため</base>
+      <pos>名詞,非自立,副詞可能</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>に</surface>
+      <read>ニ</read>
+      <base>に</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>，</surface>
+      <read>，</read>
+      <base>，</base>
+      <pos>記号,読点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="7">
+    <surface>大陸封鎖令を</surface>
+    <link>8</link>
+    <type>elem</type>
+    <noun_surface>大陸封鎖令</noun_surface>
+    <morph id="0">
+      <surface>大陸</surface>
+      <read>タイリク</read>
+      <base>大陸</base>
+      <pos>名詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="1">
+      <surface>封鎖</surface>
+      <read>フウサ</read>
+      <base>封鎖</base>
+      <pos>名詞,サ変接続</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="2">
+      <surface>令</surface>
+      <read>レイ</read>
+      <base>令</base>
+      <pos>名詞,接尾,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+    <morph id="3">
+      <surface>を</surface>
+      <read>ヲ</read>
+      <base>を</base>
+      <pos>助詞,格助詞,一般</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
+    </morph>
+  </chunk>
+  <chunk id="8">
+    <surface>出した。</surface>
+    <link>-1</link>
+    <type>verb</type>
+    <noun_surface>出す</noun_surface>
+    <semantic>状態変化あり-位置変化-位置変化（物理）-着点への移動-参加</semantic>
+    <similar>7.906891</similar>
     <voice>ACTIVE</voice>
     <mood>INDICATIVE</mood>
     <polarity>AFFIRMATIVE</polarity>
     <sentelem>PREDICATE</sentelem>
     <mod>0</mod>
-    <mod>1</mod>
+    <mod>6</mod>
+    <mod>7</mod>
     <morph id="0">
-      <surface>逃し</surface>
-      <read>ノガシ</read>
-      <base>逃す</base>
+      <surface>出し</surface>
+      <read>ダシ</read>
+      <base>出す</base>
       <pos>動詞,自立</pos>
       <ctype>連用形</ctype>
       <cform>五段・サ行</cform>
@@ -3204,6 +4662,15 @@
         <form>未然形,ろ,ロ</form>
         <form>仮定形,ら,ラ</form>
       </cchart>
+    </morph>
+    <morph id="2">
+      <surface>。</surface>
+      <read>。</read>
+      <base>。</base>
+      <pos>記号,句点</pos>
+      <ctype></ctype>
+      <cform></cform>
+      <ne>O</ne>
     </morph>
   </chunk>
 </sent>

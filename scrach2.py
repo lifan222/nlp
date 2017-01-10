@@ -80,8 +80,6 @@ def getdata(input_file):
 def output_result(textbook_txt, question_txt, output_txt):
     textbooks = getdata(textbook_txt)
     questions = getdata(question_txt)
-    print(textbooks)
-    print(questions)
     result = []
     fin = open(question_txt)
     fin_lines = fin.read().splitlines()
